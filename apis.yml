@@ -9,6 +9,13 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+created: '2025-06-06'
+modified: '2026-04-28'
+position: Consumer
+specificationVersion: '0.19'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 common:
   - url: https://www.einpresswire.com/
     name: EIN Newswire Website
