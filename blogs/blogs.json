@@ -1,0 +1,13 @@
+{
+  "repo": "ein-newswire",
+  "feeds": [
+    {
+      "source": "https://einpresswire.substack.com/",
+      "feed_url": "https://substack.einpresswire.com/feed",
+      "saved": 10,
+      "title": "EIN Presswire"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:27:28Z"
+}
