@@ -2,12 +2,19 @@
   "repo": "ein-newswire",
   "feeds": [
     {
+      "source": "https://www.einpresswire.com/all-rss",
+      "feed_url": "",
+      "title": "",
+      "saved": 0,
+      "error": "no_feed"
+    },
+    {
       "source": "https://einpresswire.substack.com/",
-      "feed_url": "https://substack.einpresswire.com/feed",
-      "saved": 10,
-      "title": "EIN Presswire"
+      "feed_url": "https://einpresswire.substack.com/feed/",
+      "title": "EIN Presswire",
+      "saved": 2
     }
   ],
-  "post_count": 10,
-  "fetched": "2026-05-03T23:27:28Z"
+  "post_count": 12,
+  "fetched": "2026-05-09T20:17:51Z"
 }
