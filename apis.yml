@@ -17,6 +17,8 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/einpresswire
   - url: https://www.einpresswire.com/
     name: EIN Newswire Website
     type: Website
