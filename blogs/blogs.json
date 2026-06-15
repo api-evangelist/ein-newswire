@@ -2,18 +2,18 @@
   "repo": "ein-newswire",
   "feeds": [
     {
-      "source": "https://einpresswire.substack.com/feed/",
-      "feed_url": "https://einpresswire.substack.com/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "feed"
-    },
-    {
       "source": "https://www.einpresswire.com/all-rss",
       "feed_url": "https://www.einpresswire.com/all-rss",
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://substack.einpresswire.com/feed",
+      "feed_url": "https://substack.einpresswire.com/feed",
+      "title": "",
+      "saved": 2,
+      "method": "feed"
     },
     {
       "source": "https://einpresswire.substack.com/",
@@ -23,6 +23,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 34,
-  "fetched": "2026-06-01T23:35:02Z"
+  "post_count": 37,
+  "fetched": "2026-06-14T20:42:17Z"
 }
