@@ -1,0 +1,45 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+provider: EIN Newswire
+providerId: ein-newswire
+generated: '2026-09-06'
+created: '2026-09-06'
+modified: '2026-09-06'
+method: searched
+source: https://www.einpresswire.com/faq
+sources:
+  - https://www.einpresswire.com/faq
+  - https://www.einpresswire.com/pricing
+  - https://www.einpresswire.com/robots.txt
+description: >-
+  EIN Presswire publishes no API rate limits because it publishes no API. The FAQ states
+  plainly that "All press releases must be submitted through the submission form" and
+  that submissions are only accepted through the website, so there is no keyed surface to
+  throttle, no documented X-RateLimit-*/RateLimit-*/Retry-After response headers and no
+  documented status code on exhaustion. The only published request-pacing signal on the
+  whole property is a crawler Crawl-delay in robots.txt, recorded below as a courtesy
+  limit rather than an API limit.
+limit_count: 0
+headers: {}
+responseCodes: {}
+limits: []
+other_published_pacing:
+  - name: robots.txt crawl delay (Googlebot)
+    scope: crawler
+    metric: seconds_between_requests
+    limit: 10
+    timeFrame: request
+    source: https://www.einpresswire.com/robots.txt
+    note: Not an API limit. Recorded because it is the only published pacing figure.
+  - name: robots.txt crawl delay (all other agents)
+    scope: crawler
+    metric: seconds_between_requests
+    limit: 30
+    timeFrame: request
+    source: https://www.einpresswire.com/robots.txt
+    note: Not an API limit. Recorded because it is the only published pacing figure.
+notes:
+  - >-
+    Plan quotas exist (1, 6 and 15 releases per 365 days) but they are commercial package
+    allowances, not runtime rate limits; they are recorded in
+    plans/ein-newswire-plans-pricing.yml.

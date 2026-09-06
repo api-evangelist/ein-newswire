@@ -1,0 +1,62 @@
+generated: '2026-09-06'
+method: probed
+source: >-
+  Live HTTPS probes of the /.well-known/ discovery surface on every host this record
+  knows: the registrable domain (einpresswire.com), www, and api.einpresswire.com — the
+  only API-looking subdomain that resolves. apis.yml declares no apis[] entries, so there
+  is no baseURL host and no OpenAPI servers[] host to probe. Status is the HTTP code
+  observed at fetch time; nothing returned a document, so nothing was saved and NO
+  WellKnown/SecurityTxt pointer is emitted in apis.yml. A recorded absence is data.
+note: >-
+  api.einpresswire.com resolves (alb-app.aws.newsmatics.com) and answers 200 at "/" but
+  serves the ordinary EIN Presswire marketing HTML — it is a front-end alias, not an API
+  host. Every /.well-known/ path on it 404s.
+hosts:
+  - host: https://www.einpresswire.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+  - host: https://einpresswire.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+  - host: https://api.einpresswire.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404

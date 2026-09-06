@@ -1,0 +1,101 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+provider: EIN Newswire
+providerId: ein-newswire
+generated: '2026-09-06'
+created: '2026-09-06'
+modified: '2026-09-06'
+method: searched
+source: https://www.einpresswire.com/pricing
+sources:
+  - https://www.einpresswire.com/pricing
+description: >-
+  EIN Presswire sells prepaid press-release distribution packages, not API plans. There
+  is no developer tier, no metered API pricing and no key issuance on any tier — the FAQ
+  states that releases are only accepted through the website submission form. The limits
+  attached to each tier are editorial and distribution quotas (releases per year, word
+  count, images, country and industry targets), which are recorded here because they are
+  the only published quantitative limits the provider ships. Prices read verbatim from
+  the published pricing table on 2026-09-06; the Pro+ "5 + 1 free" line is flagged on the
+  page as a limited-time offer.
+currency: USD
+billingPeriod: prepaid-package (365 days from date of purchase)
+plan_count: 3
+api_plan_count: 0
+enterprise_contact_only: false
+plans:
+  - id: ein-newswire-basic
+    name: Basic
+    tagline: Get Recognized
+    type: prepaid-package
+    price: 149.00
+    currency: USD
+    price_display: $149 for news release
+    price_per_release: 149.00
+    period: 365 days from date of purchase
+    limits:
+      releases_included: 1
+      country_targets_per_release: 1
+      industry_targets_per_release: 1
+      word_limit: 700
+      keyword_anchor_links: 3
+      embedded_images: 1
+      embedded_videos: 1
+    features:
+      - Detailed distribution reports
+      - Search-optimized title and meta tags
+      - Ad-free press release
+      - RSS syndication
+      - Distribution to AP News, Nexstar Media Group and the USA TODAY Network
+      - Indexed by Google News, Google Search, Bing and other major search engines
+      - Ingested by prominent AI and LLM infrastructures
+  - id: ein-newswire-pro-plus
+    name: Pro+
+    tagline: Expand Your Reach
+    type: prepaid-package
+    price: 499.00
+    currency: USD
+    price_display: $499 for 5 releases plus 1 free (limited-time offer)
+    price_per_release: 83.17
+    price_per_release_without_offer: 99.80
+    period: 365 days from date of purchase
+    limits:
+      releases_included: 6
+      releases_paid: 5
+      releases_bonus: 1
+      country_targets_per_release: 2
+      industry_targets_per_release: 5
+      word_limit: 1000
+      keyword_anchor_links: 3
+      embedded_images: 3
+      embedded_videos: 1
+    features:
+      - Everything in Basic
+      - EIN Newsdesk publication placement of your choice
+      - Distributed by email to registered EIN Newsdesk readers
+  - id: ein-newswire-corporate
+    name: Corporate
+    tagline: Get Worldwide Attention
+    type: prepaid-package
+    price: 999.00
+    currency: USD
+    price_display: $999 for 15 releases
+    price_per_release: 66.60
+    period: 365 days from date of purchase
+    limits:
+      releases_included: 15
+      country_targets_per_release: 2
+      industry_targets_per_release: 5
+      word_limit: 2500
+      keyword_anchor_links: 3
+      embedded_images: 5
+      embedded_videos: 1
+    features:
+      - Everything in Pro+
+      - Exclusive placement on 3,900+ Affinity Group Publications based on relevance
+notes:
+  - >-
+    No API, SDK or developer plan is offered on any tier. The pricing page's only
+    machine-facing line is "Ingested by prominent AI and LLM infrastructures", which
+    describes downstream syndication of published releases, not an interface a consumer
+    can call.
