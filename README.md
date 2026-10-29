@@ -1,4 +1,4 @@
-# EIN Newswire (ein-newswire)
+# EIN Newswire
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,44 +64,98 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-EIN Presswire (Everyone's Internet News Presswire) is a press release distribution service operated by Newsmatics Inc., a Washington, D.C.-based news technology company. It enables professional communicators, businesses, and organizations to distribute press releases to media outlets, journalists, search engines, news aggregators, and the public. EIN Presswire syndicates content to major platforms including Google News, AP News, USA TODAY Network, Bloomberg Terminals, MuckRack, Moody's NewsEdge, and Naviga, and provides RSS feeds, SEO-optimized distribution, and media monitoring capabilities.
+EIN Presswire, operated by Newsmatics Inc. of Washington, D.C., is a press release distribution service for businesses, agencies, nonprofits and public figures. Releases are submitted through its web form, editorially reviewed, and syndicated to AP News, the USA TODAY Network, Nexstar Media Group, Google News, Bing, Bloomberg Terminals, MuckRack, Moody's NewsEdge, Naviga and 3,900+ Affinity Group Publications, then published as RSS feeds broken out by industry, country and US state. Distribution is sold as prepaid packages rather than subscriptions, and there is no public developer API: the company's own FAQ states that press releases are only accepted through the website submission form.
 
-**URL:** [https://www.einpresswire.com/](https://www.einpresswire.com/)
+**Areas:** Media · News Distribution · Press Releases · Public Relations · Newswire · Content Syndication · RSS · Marketing
 
-## Scope
+## EIN Newswire on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for EIN Newswire is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ein-newswire/](https://apis.io/providers/ein-newswire/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
-- Media, News Distribution, Press Releases
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### Security (1)
 
-- **Created:** 2025-06-06
-- **Modified:** 2026-04-28
+Authentication, trust centre, and vulnerability disclosure.
 
-## APIs
+- [Ein Newswire Domain Security](https://apis.io/security/ein-newswire/ein-newswire-domain-security/)
 
-No public developer API has been identified for EIN Presswire. Press release submission is handled through the web interface and account system rather than via programmatic integration. EIN Presswire does provide RSS feeds for press release content at [https://www.einpresswire.com/all-rss](https://www.einpresswire.com/all-rss), along with email newsletters, news alert tools, mobile apps, the World Media Directory, industry/geographic newswires, and a NewsPlugin content embedding service.
+#### Plans and pricing (1)
 
-## Common Properties
+Published plans, tiers and prices.
+
+- [Ein Newswire Plans Pricing](https://apis.io/plans/ein-newswire/ein-newswire-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ein Newswire Rate Limits](https://apis.io/rate-limits/ein-newswire/ein-newswire-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.einpresswire.com/)
+- [Documentation](https://www.einpresswire.com/knowledge-base)
+- [Getting started](https://www.einpresswire.com/how-it-works)
 - [Pricing](https://www.einpresswire.com/pricing)
-- [FAQ](https://www.einpresswire.com/faq)
-- [Contact](https://www.einpresswire.com/contact)
-- [TermsOfService](https://www.einpresswire.com/terms)
-- [Tutorials](https://www.einpresswire.com/video-tutorials)
-- [RSS](https://www.einpresswire.com/all-rss)
-- [Distribution](https://www.einpresswire.com/distribution-details/)
-- [Resources](https://www.einpresswire.com/resources)
+- [Sign up](https://www.einpresswire.com/free-press-release-distribution)
 - [Blog](https://einpresswire.substack.com/)
+- [Terms of service](https://www.einpresswire.com/terms)
+- [Privacy policy](https://www.einpresswire.com/privacy-policy)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 24.6** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 76.3 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ein-newswire/](https://apis.io/providers/ein-newswire/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EIN Newswire: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ein-newswire/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
